@@ -1,0 +1,5 @@
+# musics
+*.wav
+
+# mac
+.DS_Store

@@ -1,0 +1,9 @@
+@startuml sequence
+autonumber
+
+User -> Client: 音声で問いかけ
+Client -> Client: gptエンジンで問いかけ内容についての返答を生成
+Client -> VoicevoxClient: 問いかけの内容について音声を作成
+VoicevoxClient -> User: 端末で返答を再生
+
+@enduml
